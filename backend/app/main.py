@@ -1,3 +1,4 @@
+
 """FastAPI application entrypoint for the Red Giant activation platform backend."""
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
