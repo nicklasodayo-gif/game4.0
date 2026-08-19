@@ -22,6 +22,12 @@ export default defineConfig({
     port: 5174,
   },
 
+  preview: {
+    host: true,
+    port: Number(process.env.PORT) || 4173,
+    allowedHosts: ['game4-0-2.onrender.com']
+  },
+
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
